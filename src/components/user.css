@@ -37,3 +37,16 @@ body {
   position: absolute;
   margin-top: 1.5rem;
 }
+.grupper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /*  background-color: antiquewhite; */
+  box-shadow: 0 0 10 #5a5858;
+  transform: 0.3s;
+  form{
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+}
